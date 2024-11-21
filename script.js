@@ -132,6 +132,7 @@ function showQuestion(tile, tileElement) {
     modalGame.style.background = "{tile.question}";
     answerBtn.style.background = teamInfo.color;
     playerPhoto.src = player.photo;
+    playerPhoto.style.borderColor = teamInfo.color;
     answerText.textContent = `Réponse : ${tile.answer}`; // Afficher la réponse
     answerText.classList.add("hidden");
     

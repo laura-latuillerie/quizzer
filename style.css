@@ -78,7 +78,7 @@ body {
 
 .modal-content {
   background: #fff;
-  padding: 60px 30px 30px;
+  padding: 30px;
   border-radius: 10px;
   text-align: center;
   width: 90%;
@@ -138,14 +138,9 @@ button {
 }
 
 .player-photo {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  right: 0;
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin: 20px auto;
   display: block;
   border: 4px solid transparent; /* Couleur changée dynamiquement */
 }
@@ -160,4 +155,15 @@ button {
 
 .teams-container > img{
   max-width: 250px;
+}
+
+.identity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-info{
+  text-align: start;
+  padding-left: 20px;
 }
