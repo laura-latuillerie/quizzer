@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Teams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <!-- Les tuiles seront générées dynamiquement par JavaScript -->
+    </div>
+    <div id="modalGame" class="hidden">
+        <div class="modal-content">
+            <img id="player-photo" src="" alt="Photo du joueur" class="player-photo" />
+            <h2 id="player-name"></h2>
+            <p id="question-text"></p>
+            <button id="show-answer">Voir la réponse</button>
+            <p id="answer-text" class="hidden"></p>
+        </div>
+        <button id="close-modalGame">On se casse !</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
